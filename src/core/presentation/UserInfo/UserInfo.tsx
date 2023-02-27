@@ -11,8 +11,8 @@ import Cronometro from '../cronometro/cronometro';
 export default function UserInfo() {
 
   const { conometroReducer, modalReducer } = useSelector(state => state);
-  const [userName, setUserName] = useState("royke");
-  const [userEmail, setUserEmail] = useState("keane032@gmail.com");
+  const [userName, setUserName] = useState("");
+  const [userEmail, setUserEmail] = useState("");
   const dispatch = useDispatch();
 
   function stop() {
